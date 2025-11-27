@@ -1,0 +1,291 @@
+* {
+    padding: 0;
+    margin: 0;
+    /* configuraçaõ da site */
+}
+
+.banner {
+    width: 750px;
+    height: 450px;
+    background-image: url("assents/controle.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+  
+}
+
+body {
+    background-color: #1a1a1a;
+}
+
+li a {
+    text-decoration: none;
+    color: #ffff;
+    font-size: 20px;
+    padding-left: 20px;
+    /*configuracao das palavras*/
+}
+
+
+ul {
+    display: flex;
+    flex-direction: row;
+    /*texto alinhado*/
+}
+
+
+
+li {
+    list-style: none;
+    /*remove os pontos do texo*/
+}
+
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#logo {
+    width: 100px;
+    height: 100px;
+}
+
+
+.bi {
+    font-size: 35px;
+    height: 15px;
+    width: 15px;
+    /*alterar os icones*/
+    color: blanchedalmond;
+}
+
+.texto-banner {
+    color: aliceblue;
+    font-size: 25px;
+    justify-content: center;
+      
+}
+
+
+.btn {
+    height: 40px;
+    width: 150px;
+    border-radius: 55px;
+    background-color: #333333;
+    border: none;
+    font-size: 19px;
+    font-weight: bold;
+    color: #ffff;
+    display: flex ;
+    justify-content: center;
+    margin: 20px;
+    
+}
+
+.banner-estrutura {
+    width: 220px;/*alterar o tamanho da minha caixa*/ 
+    padding: 30px;  
+  
+}
+ 
+.section-banner {
+display: flex;
+justify-content: center; /*formata o alinhamento do banner*/
+align-items: center;
+}
+
+.titulo{ font-size: 35px;
+
+color: floralwhite;
+}
+
+.estrutura-titulo {
+display: flex;
+justify-content: center;
+padding: 30px;
+}
+.Produtos{
+height: 350px;
+width: 200px;
+}
+
+.valor{
+color: floralwhite;
+font-size: 15px;
+font-weight: bold;
+}
+
+.card-texto{
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+width: 200px;
+}
+
+
+.card{
+
+    color: floralwhite ;
+    width: 250px;
+    height: 430px;
+}
+
+.cores{
+    height: 15px;
+    width: 15px;
+    border-radius: 10px;
+    
+}
+
+.vermelho{
+background-color: red;
+}
+
+.amarelo {
+background-color: yellow;}
+
+.azul{
+background-color: blue;}
+
+.caixa-cores{
+display: flex;
+flex-direction: row;
+padding: 5px;
+}
+
+
+.carousel{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: row;
+gap: 10px; /*da uma distancia nos elementos*/
+}
+
+
+
+.banner-xbox{
+background-image: url("assents/x-box.png");
+height: 450px;
+width: 750px;
+background-size: cover;
+background-repeat: no-repeat;
+border-radius: 20px;
+}
+
+
+.texto-xbox {
+color: rgb(255, 255, 255);
+font-size: 30px;
+font-weight: 700;
+display: flex;
+justify-content: end;
+}
+ 
+    
+        
+.banner-xbox {
+display: flex;
+justify-content: end; /*formata o alinhamento do banner*/
+padding: 20px;
+}
+
+  
+
+.xbox-caixa {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 120px;
+margin: 20px;
+}
+
+.footer {
+    width: 100%;
+    background: #111;
+    color: #ccc;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    border-radius: 18px;
+}
+
+.footer-content {
+    width: 90%;
+    max-width: 1200px;
+}
+
+.footer-columns {
+    display: flex;
+    gap: 80px;
+    margin-bottom: 30px;
+}
+
+.footer-col h3 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.footer-col a {
+    display: block;
+    color: #ccc;
+    text-decoration: none;
+    margin-bottom: 6px;
+    font-size: 15px;
+}
+
+.footer-col a:hover {
+    color: white;
+}
+
+
+.rodape{
+background-color: #333333;
+margin: 7px;
+  
+}
+
+.texto-final{
+color: #ffff;
+font-size: 20px;
+font-weight: 700;
+padding: 40px;
+}
+
+.rede-social{
+display:flex ;
+justify-content: center; 
+gap: 30px;
+}
+
+.ultimalinha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;  
+}
+#logotwo{
+    width: 100px;
+    height: 100px;
+    
+}
+.logofinal{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
